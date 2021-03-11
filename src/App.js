@@ -1,24 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import './App.css'
+import {Container, Navbar} from "react-bootstrap"
+import Footer from "./components/Footer"
+import PortfolioNavbar from './components/PortfolioNavbar'
+import About from './components/about/About'
+import Work from './components/work/Work'
+import {Helmet} from "react-helmet"
+import logo from './logo.svg'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+     <Container>
+           <Helmet>
+                <meta charSet="utf-8" />
+                <title>Rajat Kumar Gupta</title>
+                <link rel="canonical" href="http://mysite.com/example" />
+            </Helmet>
+            <PortfolioNavbar></PortfolioNavbar>
+     </Container>
   );
 }
 

@@ -1,0 +1,33 @@
+h2 {
+    color: white;
+}
+
+p {
+    margin-top: 100px;
+}
+
+.projects-tab {
+    color: white;
+}
+
+.projects-tab a {
+    color: white;
+}
+
+.projects-tab a:hover {
+    color: aqua;
+}
+
+.project-item {
+    margin-top: 40px;
+    margin-right: 0px;
+    margin-bottom: 40px;
+}
+
+.project-item-title {
+    color: white;
+}
+
+.project-item-description {
+    color: white
+}
